@@ -1,0 +1,119 @@
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+.left-column > .banner-image img {
+    width: 20%;
+    margin: 2px;
+    justify-content: center;
+}
+
+.center-column {
+    width: 15%;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    outline: none;
+}
+
+.center-column > .links-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5%;
+    justify-content: space-around;
+    color: antiquewhite;
+    text-decoration: darkgrey;
+}
+
+.links-individual a {
+    color: grey;
+    margin-inline: 10%;
+    justify-content: center;
+}
+
+.links-individual i {
+    color: greenyellow;
+}
+
+.right-column-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-column {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    width: auto;
+}
+
+.right-colum i {
+    color: grey;
+    width: 3%;
+}
+
+.hero-wrapper {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 3fr 3fr;
+    justify-content: space-between;
+    background-color: rgba(36, 39, 41, 0.37);
+}
+
+.left-text-hero {
+    color: grey;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-buttons-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10%;
+    background-color: rgba(64, 66, 66, 0.226);
+    border-radius: 3%;
+    justify-content: space-between;
+    border: 3%;
+    color: black;
+}
+
+.black-left-box-button {
+    background-color: black;
+}
+
+.green-left-box-button {
+    background-color: greenyellow;
+}
+
+.image-right-box {
+    width: 472px;
+    height: 3%;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    margin: 2%;
+    justify-content: space-between;
+    border: all solid cadetblue;
+}
